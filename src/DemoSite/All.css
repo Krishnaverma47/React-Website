@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Overlock&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navBarHeader{
+    width: 100%;
+
+}
+.navbar-brand{
+    color: grey;
+    font-size: 26px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: cadetblue;
+}
+.nav-item{
+    padding-right:  15px;
+}
+.nav-link{
+    color: rgb(3, 94, 88);
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: cadetblue;
+}
+
+/* header part css  start*/
+.banner{
+    background-image: url('./image/2474.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.myRow{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.headig{
+    font-size: 22px;
+    font-weight: normal;
+    font-family:'Mukta', sans-serif;
+    color: plum;
+}
+.myName{
+    font-size: 24px;
+    font-weight: normal;
+    color: navajowhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    text-align: justify;
+    padding: 8px 0px;
+    color: white;
+}
+.myBtn{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    height:auto;
+    width: auto;
+    padding: 5px 10px;
+    border: 2px solid cadetblue;
+    border-radius: 30px;
+    margin: 20px 0px;
+    width: 180px;
+    text-align: center;
+    background-color: rgb(12, 121, 110);
+    color: white;
+    transition: 1s;
+}
+.myBtn:hover{
+    background-color: transparent;
+    color: rgb(139, 0, 104);
+}
+/* header part css end  */
+
+
+
+/* services css start  */
+
+.card{
+    margin: .7rem 0px;
+}
+.newSection{
+    background-color: navajowhite;
+    padding: 1.5rem 0px;
+}
+
+
+/* services css part ends  */
